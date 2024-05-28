@@ -1,8 +1,10 @@
+import Contacts from "./components/Contacts"
+
 function App() {
   return (
-    <>
-      Test app
-    </>
+    <div className="w-full min-h-screen flex-center">
+      <Contacts />
+    </div>
   )
 }
 

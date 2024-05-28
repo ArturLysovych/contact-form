@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+    .appContainer {
+        @apply max-w-screen-xl container px-[10px] py-[50px];
+    }
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+}
