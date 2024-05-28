@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "dev": "nodemon server"
+  }
+}
