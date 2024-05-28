@@ -1,8 +1,6 @@
-import { ReactNode } from "react";
+import { IContainerProps } from "../interfaces";
 
-interface ContainerProps { children: ReactNode };
-
-const Container = ({ children }: ContainerProps) => (
+const Container = ({ children }: IContainerProps) => (
   <div className="appContainer h-full flex flex-col">
     {children}
   </div>
